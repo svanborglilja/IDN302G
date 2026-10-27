@@ -100,6 +100,7 @@ book:
         - regex/data-cleaning.qmd
         - regex/agents.qmd
         - regex/good-practices.qmd
+        - regex/sjalfsprof.qmd
         - regex/mbl.qmd
     - part: "Rökfræði og mengi"
       chapters:
