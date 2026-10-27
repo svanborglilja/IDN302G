@@ -214,7 +214,12 @@ const questions = [
     level: "Hluti 2 – Beiting regex",
     title: "Spurning 5 – Bil og önnur hvítbil",
     question: "Hvaða strengir innihalda samsvörun við \\s+?",
-    options: ["a b", "abc", "a\\tb", "123"],
+    options: [
+  "a b (venjulegt bil)",
+  "abc",
+  "a\\tb (tab-tákn)",
+  "123"
+],
     correct: [0, 2],
     explanation:
       "Rétt svör eru A og C.\n\n" +
@@ -278,8 +283,8 @@ const questions = [
     correct: [1],
     explanation:
       "Rétt svar er B: a1b2b.\n\n" +
-      ".* er gráðugt mynstur og reynir að " +
-      "ná yfir eins marga stafi og hægt er.\n\n" +
+      ".* reynir að samsvara eins mörgum stöfum " +
+"og mögulegt er.\n\n" +
       "Þess vegna nær samsvörunin að síðasta b.\n" +
       "Með a.*?b fengist styttri samsvörunin a1b."
   },
